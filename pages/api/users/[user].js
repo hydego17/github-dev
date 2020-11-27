@@ -1,6 +1,7 @@
 import axios from "axios";
 
 export default async function getUsers(req, res) {
+  // Get the current user query
   const user = req.query.user;
 
   try {

@@ -3,7 +3,6 @@ import axios from "axios";
 export default async function getUsers(req, res) {
   // Get random number for user query
   const random = Number(req.query.since);
-  const offset = Number(req.query.offset);
 
   try {
     const response = await axios.get(
