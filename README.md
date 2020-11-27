@@ -24,7 +24,7 @@ yarn
 
 ### Make sure you have the access token for github API
 
-To get started, go to to your **Github** > **Settings** > **Developer Settings** > **Perconal Access Tokens** and register a new one.
+To get started, go to to your **Github** > **Settings** > **Developer Settings** > **Perconal Access Tokens** and generate a new one.
 
 Then make a new folder called **.env.local** and register the token:
 
