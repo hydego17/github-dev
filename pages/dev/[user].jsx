@@ -1,5 +1,4 @@
 import { Image, Flex, Box, Heading, Spinner, Text } from "@chakra-ui/react";
-import {} from "@chakra-ui/icons";
 
 import { useGetSingleUser } from "lib/api";
 import { useRouter } from "next/router";
