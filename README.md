@@ -36,7 +36,7 @@ Make sure that the token is registered in `/page/api/users/index.js` and `/page/
 
 The token is used for in both api pages as the authentication headers for github API request.
 
-For example, in `/page/api/index.js`:
+For example, in `/page/api/users/index.js`:
 
 ```
   const response = await axios.get(
