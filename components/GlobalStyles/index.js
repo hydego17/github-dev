@@ -1,9 +1,6 @@
 import { Global, css } from "@emotion/core";
-import { useTheme } from "providers/ThemeProvider";
 
 const GlobalStyles = () => {
-  const { theme } = useTheme();
-
   return (
     <Global
       styles={css`
@@ -18,8 +15,8 @@ const GlobalStyles = () => {
 
         body {
           transition: background 0.3s ease;
-          color: ${theme.color};
-          background: ${theme.background};
+          color: #000000;
+          background: #ffffff;
           min-height: 100%;
           font-family: -apple-system, BlinkMacSystemFont, "roboto", Helvetica,
             sans-serif;
@@ -65,20 +62,13 @@ const GlobalStyles = () => {
         }
 
         nav {
-          background-color: ${theme.navBg};
-        }
-
-        hr {
-          padding: 0.5rem;
-          border: 0;
-          height: 0;
-          border-top: 1px solid ${theme.divider};
+          background-color: rgba(255, 255, 255, 0.8);
         }
 
         nav a,
         .links a {
           &:hover {
-            color: ${theme.hoverClr};
+            color: #507496;
           }
         }
 
@@ -93,7 +83,7 @@ const GlobalStyles = () => {
           margin: 0 auto;
         }
         .user-card {
-          background: ${theme.cardBg};
+          background: #edf2f7;
         }
       `}
     />
