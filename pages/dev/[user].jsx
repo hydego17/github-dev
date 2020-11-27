@@ -4,9 +4,11 @@ import { useGetSingleUser } from "lib/api";
 import { useRouter } from "next/router";
 
 export default function UserDetail() {
+  // Use router to get the query (user.login) from API
   const router = useRouter();
   const { user } = router.query;
 
+  // Fetch the date using SWR
   const { data: dev, loading, error } = useGetSingleUser({ user });
 
   return (
