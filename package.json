@@ -1,7 +1,10 @@
 {
-  "name": "my-portfolio",
+  "name": "github-dev",
   "version": "0.1.0",
+  "description": "Github Dev Project",
+  "author": "Umma Ahimsha <uahimsha@gmail.com>",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
