@@ -12,7 +12,7 @@ The request to Github API is made using access token, and is limited to 5,000 re
 git clone https://github.com/hydego17/github-dev.git <your_folder_name>
 ```
 
-### Install all the depency (Next, React and React-DOM are essentials)
+### Install all the dependencies (Next, React and React-DOM are essentials)
 
 ```
 npm install
