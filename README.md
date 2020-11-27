@@ -24,11 +24,11 @@ yarn
 
 ### Make sure you have the access token for github API
 
-To get started, go to Settings > Developer Settings > Perconal Access Tokens and register a new one.
+To get started, go to **Settings** > **Developer Settings** > **Perconal Access Tokens** and register a new one.
 
-Then put it in .env.local and make sure that it is registered in `/page/api/users/index.js` and `/page/api/users/[user].js`.
+Then put it in **.env.local** and make sure that it is registered in `/page/api/users/index.js` and `/page/api/users/[user].js`.
 
-The token is used for the authentication for github API request.
+The token is used for the authentication headers for github API request.
 
 For example, in `/page/api/index.js`:
 
