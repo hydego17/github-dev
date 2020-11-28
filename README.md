@@ -28,7 +28,7 @@ npm install
 yarn
 ```
 
-### Make sure you have the access token for github API
+### Make sure you have the access token for Github API
 
 To get started, go to to your **Github** > **Settings** > **Developer Settings** > **Perconal Access Tokens** and generate a new one.
 
