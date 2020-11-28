@@ -64,3 +64,5 @@ npm run dev
 
 yarn dev
 ```
+
+Go to http://localhost:3000/.
