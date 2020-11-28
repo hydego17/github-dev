@@ -4,7 +4,7 @@ This project was built using:
 
 - [**Next.js**](https://nextjs.org/) (React)
 - [**SWR**](https://swr.vercel.app/) and [**Axios**](https://github.com/axios/axios) for data fetching
-- [**Chakra-UI**](https://chakra-ui.com/) and [**Emotion**](https://emotion.sh/) for styling
+- [**Chakra-UI**](https://chakra-ui.com/) (CSS Framework) and [**Emotion**](https://emotion.sh/) (CSS in JS) for styling
 
 The request to Github API is made using access token, and is limited to 5,000 request per hour. [Learn More](https://docs.github.com/en/free-pro-team@latest/developers/apps/rate-limits-for-github-apps#user-to-server-requests)
 
