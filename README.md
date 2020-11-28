@@ -40,7 +40,7 @@ ACCESS_TOKEN=<yourtokenhere>
 
 Make sure that the token is registered in `/pages/api/users/index.js` and `/pages/api/users/[user].js`.
 
-The token is used for in both api pages as the authentication headers for the API call.
+The token is used in both api pages as the authentication headers for the API call.
 
 For example, in `/pages/api/users/index.js`:
 
