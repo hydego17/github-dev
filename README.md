@@ -38,11 +38,11 @@ Then make a new folder called **`.env.local`** and register the token:
 ACCESS_TOKEN=<yourtokenhere>
 ```
 
-Make sure that the token is registered in `/page/api/users/index.js` and `/page/api/users/[user].js`.
+Make sure that the token is registered in `/pages/api/users/index.js` and `/pages/api/users/[user].js`.
 
 The token is used for in both api pages as the authentication headers for the API call.
 
-For example, in `/page/api/users/index.js`:
+For example, in `/pages/api/users/index.js`:
 
 ```js
 const response = await axios.get(
