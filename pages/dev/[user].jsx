@@ -35,11 +35,7 @@ export default function UserDetail() {
             </Heading>
 
             <Text pb={2}>
-              <a
-                href={`https://github.com/${dev.login}`}
-                target="_blank"
-                rel="noopener"
-              >
+              <a href={dev.html_url} target="_blank" rel="noopener">
                 {dev.login}
               </a>
             </Text>

@@ -12,8 +12,10 @@ export default function Home() {
   // Define array of users
   const [devs, setDevs] = useState([]);
 
+  const randomNumber = Math.ceil(Math.random() * 1000000);
+
   // Random state for user query
-  const [random, setRandom] = useState(Math.ceil(Math.random() * 100));
+  const [random, setRandom] = useState(randomNumber);
   const [offset, setOffset] = useState(5);
 
   // Get data from API
@@ -21,8 +23,7 @@ export default function Home() {
 
   // Refresh button handler
   const refreshUsers = () => {
-    const randomGen = Math.ceil(Math.random() * 10000);
-    setRandom(randomGen);
+    setRandom(randomNumber);
   };
 
   // Change user handler
