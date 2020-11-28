@@ -1,6 +1,6 @@
 # Github Dev
 
-### [SEE DEMO](https://github-dev.vercel.app/)
+[**DEMO**](https://github-dev.vercel.app/)
 
 This project was built using:
 
