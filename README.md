@@ -32,7 +32,7 @@ yarn
 
 To get started, go to to your **Github** > **Settings** > **Developer Settings** > **Perconal Access Tokens** and generate a new one.
 
-Then make a new folder called **`.env.local`** and register the token:
+Then make a new file called **`.env.local`** and register the token:
 
 ```
 ACCESS_TOKEN=<yourtokenhere>
